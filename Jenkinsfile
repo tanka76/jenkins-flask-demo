@@ -11,7 +11,7 @@ pipeline {
                 echo "Building.."
                 echo "server creds: ${SERVER_CREDS}"
                 echo "server username: ${SERVER_CREDS_USR}"
-                echo "server password: ${SERVER_CREDS_PWS}"
+                echo "server password: ${SERVER_CREDS_PSW}"
             }
         }
         stage('Test') {
