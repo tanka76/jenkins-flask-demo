@@ -7,5 +7,9 @@ def hello_world():
     return 'Hello, From Flask App!'
 
 
+@app.route('/home')
+def home():
+    return 'Welcome to Home Page!'
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000,debug=True)
